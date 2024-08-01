@@ -1,0 +1,34 @@
+.homeDisplay {
+    text-align: center;
+    background-color: #f0f4f8;
+    color: #333;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.homeDisplay h1 {
+    margin-bottom: 20px;
+    font-family: "roboto";
+    font-size: 2.5em;
+    color: #0056b3;
+    text-shadow: 1px 1px 2px #bbbbbb;
+}
+
+button {
+    background-image: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #0056b3, #004095);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
